@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nonebot-plugin-ds-baisuwen"
-version = "1.1.0"
+version = "1.1.2"
 description = "基于DeepSeek的智能聊天机器人，打造属于你的赛博群友"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -21,14 +21,16 @@ dependencies = [
   "httpx>=0.23.0",
   "tenacity>=8.2.2",
   "redis>=4.5.1",
-  "nonebot-adapter-onebot-v11>=2.0.0"  # 合并必要依赖
+  "nonebot-adapter-onebot>=2.0.0"  # 合并必要依赖
 ]
 
 [project.urls]
 homepage = "https://github.com/Longxuanyue/nonebot_plugin_ds_baisuwen"
 
 [project.optional-dependencies]
+onebot-v11 = ["nonebot-adapter-onebot-v11>=2.0.0"]  # 作为可选依赖
 dev = [
+
   "pytest>=7.0",
   "pytest-asyncio>=0.21.0",
   "black>=23.3.0",
