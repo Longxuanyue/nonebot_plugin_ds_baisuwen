@@ -8,7 +8,7 @@ from .redis_handler import redis_client
 from nonebot.adapters.onebot.v11 import MessageEvent, GroupMessageEvent, PrivateMessageEvent
 from nonebot.rule import Rule
 
-__version__ = "1.1.2"
+__version__ = "1.1.4"
 __plugin_meta__ = PluginMetadata(
     name="赛博群友白苏文",
     description="基于DeepSeek的智能聊天机器人，打造属于你的赛博群友",
@@ -17,8 +17,7 @@ __plugin_meta__ = PluginMetadata(
     homepage="https://github.com/KarisAya/nonebot_plugin_baisuwen/",
     supported_adapters={"~onebot.v11"},  # 修正适配器标识符
     extra={
-        "version": __version__,
-        "require": ["nonebot-adapter-onebot-v11>=2.0.0"]  # 显式声明最低版本
+        "version": __version__
     }
 )
 
