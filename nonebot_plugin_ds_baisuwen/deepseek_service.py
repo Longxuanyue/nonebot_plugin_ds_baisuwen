@@ -89,13 +89,13 @@ class DeepSeekAPI:
         return self._apply_response_rules(content)
 
     def _apply_response_rules(self, text: str) -> str:
-        """应用响应规则"""
-        # 添加表情符号
-        if random.random() < config["response_rules"]["emoticon_probability"]:
-            text += random.choice(config["response_rules"]["emoticons"])
+        # """应用响应规则"""
+        # # 添加表情符号
+        # if random.random() < config["response_rules"]["emoticon_probability"]:
+        #     text += random.choice(config["response_rules"]["emoticons"])
         
-        # 添加恶作剧
-        if random.random() < config["response_rules"]["prank_probability"]:
-            text += random.choice(config["response_rules"]["pranks"])
+        # # 添加恶作剧
+        # if random.random() < config["response_rules"]["prank_probability"]:
+        #     text += random.choice(config["response_rules"]["pranks"])
         
         return text
