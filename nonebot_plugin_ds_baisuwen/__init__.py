@@ -22,7 +22,7 @@ __plugin_meta__ = PluginMetadata(
     description="基于DeepSeek的智能聊天机器人，打造属于你的赛博群友",
     usage="Ciallo～(∠・ω< )⌒★",
     type="application",
-    homepage="https://github.com/Longxuanyue/nonebot_plugin_baisuwen/",
+    homepage="https://github.com/Longxuanyue/nonebot_plugin_ds_baisuwen/",
     extra={},
 )
 
