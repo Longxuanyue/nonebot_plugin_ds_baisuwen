@@ -44,7 +44,7 @@
 根据 [VITS官方文档](https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/LOCAL.md) 进行部署
 
 **部署方式二**  
-联系开发者获取优化整合包：  
+下载最新的release包或联系开发者获取优化整合包：  
 📮 **2461292801@qq.com**
 
 ---
